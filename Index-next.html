@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <!--<div class="container-fluid">-->
+
+<head>
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <!--<script type="text/javascript" src="script.js"></script>-->
+
+  <!-- Bootstrap Dropdown Hover CSS -->
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/bootstrap-dropdownhover.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <a href="mailto:pyoung12@masonlive.gmu.edu"><img src="AskImage.png" class="askBtn miniGrow miniGrow:hover"></img></a>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Bootstrap Dropdown Hover JS -->
+  <script src="js/bootstrap-dropdownhover.min.js"></script>
+
+  <div class = "title_banner">
+  <h1><b class="myShadow">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Organic Chemistry </b></h1>
+  <h3><b class="myShadow"> Professor Soandso</b> </h3>
+</div>
+
+  <div class = "row" id="learningMenuBackground" position="sticky" top="0px">
+    <div class="btn-group btn-group-justified">
+    <div class = "col-lg-3 text-center">
+  <a href="#" id="vis" class="btn btn-primary grow grow:hover :checked"><div data-toggle="collapse" href="#collapseVisual1,#collapseVisual2,#collapseVisual3,#collapseVisual4,#collapseVisual5,#collapseVisual6,#collapseVisual7,#collapseVisual8,#collapseVisual9,#collapseVisual10" aria-expanded="false" aria-controls="collapseExample"><input type="checkbox" name="Visual" value="✓ Test" class="learningCheckbox" id="visualCheck" checked="checked"><label for="visualCheck"> &nbsp;&nbsp;&nbsp; Visual &nbsp;&nbsp;<i class="glyphicon glyphicon-eye-open"></i> </label></input></div></a> </div>
+  <div class = "col-lg-3 text-center">
+  <a href="#" id="aud" class="btn btn-primary grow grow:hover"><div data-toggle="collapse" href="#collapseAuditory1,#collapseAuditory2,#collapseAuditory3,#collapseAuditory4,#collapseAuditory5,#collapseAuditory6, #collapseAuditory7, #collapseAuditory8" aria-expanded="false" aria-controls="collapseExample"><input type="checkbox" name="Auditory" value="✓ Test" class="learningCheckbox" id="auditoryCheck"><label for="auditoryCheck"> &nbsp; &nbsp; Auditory &nbsp; <i class="glyphicon glyphicon-volume-up"></i></i></label></input></div></a> </div>
+  <div class = "col-lg-3 text-center">
+    <!-- Citation for Open Source Icon: https://material.io/icons/-->
+    <!-- To change the color of this icon - edit the source file of the icon directly.-->
+  <a href="#" id="kin" class="btn btn-primary grow grow:hover"><div data-toggle="collapse" href="#collapseKinesthetic1,#collapseKinesthetic2,#collapseKinesthetic3,#collapseKinesthetic4,#collapseKinesthetic5,#collapseKinesthetic6" aria-expanded="false" aria-controls="collapseExample"><input type="checkbox" name="Kinesthetic" value="✓ Test" class="learningCheckbox" id="kinestheticCheck"><label for="kinestheticCheck"> &nbsp; Kinesthetic <img src="fingerprint.svg" alt="fingerprint-image" id="fingerprint"></label></input></div></a> </div>
+  <div class = "col-lg-3 text-center">
+    <a href="#!" class="btn btn-primary grow grow:hover" id="reading"><div data-toggle="collapse" href="#collapseRead1,#collapseRead2,#collapseRead3,#collapseRead4,#collapseRead5,#collapseRead6,#collapseRead7,#collapseRead8,#collapseRead9,#collapseRead10" aria-expanded="false" aria-controls="collapseExample"><input type="checkbox" name="Read-Write" value="✓ Test" class="learningCheckbox" id="readCheck" checked="checked"><label id="myLabel" for="readCheck"> &nbsp;&nbsp; Read/Write &nbsp;<i class="glyphicon glyphicon-pencil"></i></label></input></div></a> </div>
+</div>
+</div>
+
+<br>
+<!-- Next/Previous Section Navigation menu-->
+<div class = "container-fluid myNav" position = "relative">
+<div class="btn-group btn-group-justified">
+  <div class="col-lg-4 text-center">
+  <a href = "index.html" class="btn btn-info"><i class="glyphicon glyphicon-arrow-left leftArrow"></i><span class="align-middle" id="next-prev">Previous Section</span></a></div>
+  <div class="col-lg-4 text-center">
+    <!--
+  <a class="btn btn-info" data-toggle="collapse" href="#myChapters" aria-expanded="false" aria-controls="collapseExample"><i class="glyphicon glyphicon-home HomeNav"><span id="next-prev">&nbsp; Menu</span></i></a></div>
+-->
+  <a class="btn btn-info" id="house" data-toggle="collapse" href="#myChapters" aria-expanded="false" aria-controls="collapseExample"><span id="next-prev">&nbsp; Menu</span></a></div>
+  <div class="col-lg-4 text-center">
+  <a href="#" class="btn btn-info"><span id="next-prev">Next Section<i class="glyphicon glyphicon-arrow-right rightArrow"></i></span></a></div>
+</div>
+</div>
+
+<div class="collapse" id="myChapters">
+  <div class="container-fluid chapterList">
+    <div class="col-lg-4 text-center"> <br> </div>
+    <div class="col-lg-4" col-align="center">
+    <div class= "row">
+    <a class="btn btn-success" data-toggle="collapse" href="#collapseCh1" aria-expanded="false" aria-controls="collapseExample">
+      Chapter 1: Bonding
+    </a>
+  </div>
+  <div class="collapse" id="collapseCh1">
+      <div class="row"> <a href="index.html" class="btn btn-link">1.1: Carbon Compounds</a></div>
+      <div class="row"><a href="index.html" class="btn btn-link">1.2: Atomic Structure</a></div>
+      <div class="row"><a href="index.html" class="btn btn-link">1.3: Octet Rule</a></div>
+      <div class="row"><a href="index.html" class="btn btn-link">1.4: Lewis Structure</a></div>
+      <div class="row"><a href="index.html" class="btn btn-link">1.5: Bonding Types</a></div>
+  </div>
+  <div class= "row">
+  <a class="btn btn-success" data-toggle="collapse" href="#collapseCh2" aria-expanded="false" aria-controls="collapseExample">
+    Chapter 2: Carbon Compounds
+  </a>
+  </div>
+  <div class="collapse" id="collapseCh2">
+      <div class="row"><a href="Index-next.html" class="btn btn-link">2.1: Quantum Mechanics</a></div>
+      <div class="row"><a href="index.html" class="btn btn-link">2.2: Atomic Orbitals</a></div>
+      <div class="row"><a href="index.html" class="btn btn-link">2.3: Resonance Theory</a></div>
+      <div class="row"><a href="index.html" class="btn btn-link">2.4: Hybridization</a></div>
+      <div class="row"><a href="index.html" class="btn btn-link">2.5: Molecular Geometry</a></div>
+  </div>
+  <div class= "row">
+  <a class="btn btn-success" data-toggle="collapse" href="#collapseCh3" aria-expanded="false" aria-controls="collapseExample">
+    Chapter 3: Acids & Bases
+  </a>
+  </div>
+  <div class="collapse" id="collapseCh3">
+      <div class="row"><a href="index.html" class="btn btn-link">3.1: pH</a></div>
+      <div class="row"><a href="index.html" class="btn btn-link">3.2: Acids</a></div>
+      <div class="row"><a href="index.html" class="btn btn-link">3.3: Bases</a></div>
+      <div class="row"><a href="index.html" class="btn btn-link">3.4: Case Study</a></div>
+      <div class="row"><a href="index.html" class="btn btn-link">3.5: Summary</a></div>
+  </div>
+
+</div>
+</div>
+</div>
+      <div id="search-box-outline">
+      <form>
+        &nbsp;<i class="glyphicon glyphicon-search"></i>
+         Search:
+        <input type="text" id="search-text"> &nbsp;
+      </form>
+</div>
+
+<div class="dropup translate">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Translate
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu translate-menu" aria-labelledby="dropdownMenu2">
+    <li><a href="#">Spanish</a></li>
+    <li><a href="#">Chinese</a></li>
+    <li><a href="#" class="english"><b>English</b></a></li>
+  </ul>
+</div>
+
+<!-- Content of Website Starts Here -------------------------------------------------------------------------------------------------------------------->
+<h2 class="section-title" position="sticky" top="0px"> Section 2.1: Quantum Mechanics</h2>
+</div>
+
+<br>
+<div class="row">
+  <div class="col-lg-9">
+<h3 class="subsection title1"><b> I. Introduction to Quantum Mechanics</b> </h3>
+</div>
+<div class="collapse" id="collapseAuditory1">
+<div class="col-lg-3 Aud1 container-fluid">
+  <audio controls="">
+    <source src="Test_Recording.m4A" type="audio/mpeg" class="center">
+  Your browser does not support the audio element.
+  </audio>
+</div>
+</div>
+</div>
+<div class="collapse show" id="collapseRead1">
+  <p>
+  "Quantum mechanics (QM; also known as quantum physics or quantum theory), including quantum field theory, is a fundamental theory in physics which describes nature at the smallest scales of energy levels of atoms and subatomic particles. Quantum mechanics gradually arose from the necessity of discrete energy values in Max Planck's solution in 1900 to the black-body radiation problem, and from the necessary correspondence between energy and frequency in Albert Einstein's 1905 paper which offered a quantum-based theory to explain the photoelectric effect. Early quantum theory was profoundly re-conceived in the mid-1920s by Erwin Schrödinger, Werner Heisenberg, Max Born and others. The modern theory is formulated in various specially developed mathematical formalisms. In one of them, a mathematical function, the wave function, provides information about the probability amplitude of position, momentum, and other physical properties of a particle." <i>Source: https://en.wikipedia.org/wiki/Quantum_mechanics </i></p>
+</div>
+<div class="collapse show" id="collapseVisual1">
+
+<iframe class="gif1" src="https://giphy.com/embed/dHSfIitJ07x4s" width="480" height="209" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/bonds-dHSfIitJ07x4s"></a></p>
+
+<!--<img src="EXAMPLE1.png" class="ex1"></img>-->
+</div>
+<div class="collapse show" id="collapseVisual2">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TwqMtO2FLYk" frameborder="0" allowfullscreen class="vid1"></iframe>
+</div>
+
+
+<div class="collapse" id="collapseKinesthetic1">
+  <a href="https://www.learner.org/interactives/periodic/bonding/"class="try-it grow grow:hover" target="_blank"> Try It Yourself! </a>
+</div>
+<br>
+<div class="line-divider"></div>
+<br>
+<div class="row">
+  <div class="col-lg-9">
+<h3 class="subsection title1"><b> II. Covalent Bonding</b> </h3>
+</div>
+<div class="collapse" id="collapseAuditory2">
+<div class="col-lg-3 Aud1 container-fluid">
+  <audio controls="">
+    <source src="Test_Recording.m4A" type="audio/mpeg" class="center">
+  Your browser does not support the audio element.
+  </audio>
+</div>
+</div>
+</div>
+<div class="collapse show" id="collapseRead2">
+  <p>
+  "A covalent bond, also called a molecular bond, is a chemical bond that involves the sharing of electron pairs between atoms. These electron pairs are known as shared pairs or bonding pairs, and the stable balance of attractive and repulsive forces between atoms, when they share electrons, is known as covalent bonding.[1][better source needed] For many molecules, the sharing of electrons allows each atom to attain the equivalent of a full outer shell, corresponding to a stable electronic configuration." <i> Source: https://en.wikipedia.org/wiki/Covalent_bond </i></p>
+</div>
+<div class="collapse show" id="collapseVisual5">
+   <iframe class="gif2" src="https://giphy.com/embed/11mMlZmTMYkyaI" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/chemistry-education-11mMlZmTMYkyaI"></a></p>
+<!--<img src="EXAMPLE2.png" class="ex2"></img>-->
+</div>
+
+<div class="collapse" id="collapseKinesthetic1">
+  <a href="https://www.learner.org/interactives/periodic/bonding/"class="try-it grow grow:hover" target="_blank"> Try It Yourself! </a>
+</div>
+<br>
+<div class="line-divider"></div>
+<br>
+<h3 class="subsection title3"><b> III. Additional Resources </b> </h3>
+
+<div class="collapse show" id="collapseVisual7">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CGA8sRwqIFg" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div class="collapse" id="collapseAuditory3">
+<a href="https://www.podbean.com/media/share/pb-itewf-193c32" class="podcast-link"><img src="Podcast-Button.png" class="podcast-link"></a>
+</div>
+
+<br>
+<h4 class="review text-center"> Rate Content:&nbsp; <span class="rate">&nbsp; 1 &nbsp;</span> &nbsp;<span class="rate">&nbsp; 2 &nbsp;</span> &nbsp; <span class="rate">&nbsp; 3 &nbsp;</span> &nbsp; <span class="rate">&nbsp; 4 &nbsp;</span> &nbsp; <span class="rate grow grow:hover">&nbsp; 5 &nbsp;</span></h4>
+<br>
+</body>
+</html>

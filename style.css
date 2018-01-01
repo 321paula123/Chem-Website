@@ -1,0 +1,509 @@
+
+body {
+  background-color:#EAE7DC;
+  width:100%
+  margin:0%;
+  overflow-x: hidden;
+  position:sticky;
+}
+
+.title_banner {
+    text-align: center;
+    background-image: url("chem-background.jpg");
+    color:white;
+   margin-top:0px;
+   margin-right:0px;
+   margin:0%;
+   padding-top: 5px;
+   padding-right: 10px;
+   padding-bottom: 1px;
+   padding-left: 10px;
+   border-bottom: 5px solid #2D5F65;
+   z-index:900;
+}
+
+h3 {
+    padding-top:0px;
+    margin-top:0px;
+    margin-left:70px;
+    color:white;
+    text-outline: 2px 2px black;
+}
+
+.myShadow {
+  text-shadow: 2px 2px black;
+  color: white;
+}
+
+.subsection {
+  color: #2C6996;
+}
+
+.Aud1 {
+  text-align: left;
+  margin-right:20px;
+}
+
+.mycol1 {
+  margin-left:200px;
+  margin-right:0px;
+  padding-right:0px;
+}
+
+.mycol2 {
+  text-align:left;
+  margin-left:5px;
+  padding-left:0px;
+}
+
+p {
+  text-align: left;
+  margin:5px;
+  margin-left:70px;
+  margin-right: 70px;
+  padding:5px;
+  font-size: 16px;
+}
+
+.title1 {
+  position:relative;
+  font-size:45px;
+}
+
+.title3 {
+  position:relative;
+  left: 0px;
+  font-size:45px;
+}
+
+.gif1 {
+  position:relative;
+  left: 380px;
+}
+.gif2 {
+  position:relative;
+  left: 380px;
+}
+.podcast-link {
+  transform: scale(0.3,0.3);
+  position: relative;
+  top:-170px;
+  left:100px;
+  margin-bottom:-500px;
+}
+
+#collapseVisual2 {
+  position: relative;
+  left:330px;
+}
+
+#collapseVisual7 {
+  position:relative;
+  left: 350px;
+}
+
+.line-divider {
+    border-bottom:5px solid #2C6996;
+}
+
+.ex1 {
+  width:1000px;
+  height: auto;
+  position: relative;
+  left:130px;
+}
+
+.ex2 {
+  width:1000px;
+  height: auto;
+  position: relative;
+  left:130px;
+}
+
+button.btn.btn-warning {
+  font-size:20px;
+  background-color:white;
+  border: 7px solid #E85A4F;
+  border-radius:10%;
+  radius: 10%;
+  width:100%;
+}
+
+button.btn.btn-warning:hover {
+}
+
+.statistics {
+  width:100%;
+  height: auto;
+}
+
+.try-it {
+  background-color:#EAE7DC;
+  color:#E85A4F;
+  font-size: 20px;
+  text-align:center;
+  display:block;
+  margin:auto;
+  width:25%;
+  border: 7px solid #E85A4F;
+  border-radius:100%;
+  padding:10px 20px 10px 20px;
+}
+
+.try-it:hover {
+  color:white;
+  background-color: #E85A4F;
+}
+
+a.btn.btn-primary {
+  font-size:30px;
+  color: white; /* Font Color */
+  width:100%;
+  padding:0%;
+  background-color:#E85A4F;
+  color: white;
+  border-color: #8E8D8A;
+  margin-top:1px;
+  border: 7px outset #E98074;
+  margin-bottom:0px;
+}
+
+a.btn.btn-primary:hover {
+  background-color:#E98074;
+}
+
+#learningMenuBackground {
+  /*background-color: #D133FF;*/
+  background-color:#EAE7DC;
+  /*position: relative;*/
+    position: -webkit-sticky;
+  position: sticky;
+  /*top:-1px;*/
+  z-index:999;
+  top:0px;
+  overflow:visible;
+  margin-bottom:0px;
+  /*border-top: 5px ridge red;*/
+}
+.sticky {
+  position: fixed;
+}
+div.btn-group.btn-group-justified {
+  margin-bottom:0px;
+  margin:0px;
+}
+
+input[type = "checkbox"] {
+        transform: scale(4,4);
+        color: green;
+
+      }
+
+.review {
+  color: #E85A4F;
+  font-size: 30px;
+  border-top: 3px solid #E85A4F;
+  padding-top:10px;
+}
+.rate:hover {
+  background-color: #E85A4F;
+  border-radius:100%;
+  color: white;
+}
+.askBtn {
+    position: absolute;
+		top: -410px;
+		right: -480px;
+    transform: scale(0.1,0.1);
+    border-radius:50%; /*Doesn't work*/
+    z-index:999;
+      }
+      .askBtn:hover {
+      }
+
+      .miniGrow {
+        transition: all .2s ease-in-out;
+      }
+      .miniGrow:hover {
+        transform: scale(0.12);
+      }
+
+
+/* This code is useless:*/
+.selectable:hover {
+  background-color: purple;
+  transform: scale(0.1,0.1);
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.05); }
+
+
+.container-fluid {
+  padding-right:0px;
+  padding-left:0px;
+  margin-right:0px;
+  margin-left:0px;
+  padding-top:0px;
+}
+
+#fingerprint {
+  height:16%;
+  width:16%;
+}
+
+.takeAssessmentButton {
+  shape-outside: circle(100%);
+  text-align: center;
+  font-size: 5px; /* This line is being overriden*/
+  border-radius: 50%;
+	width: 120px;
+	height: 120px;
+  background-color:orange;
+  display:block;
+  margin:2px;
+}
+
+#assessmentButton {
+  font-size:20px;
+  display:inline-block;
+  background-color:red;
+  border-color:red;
+  width: 300px;
+	height: 40px;
+  border-radius:30%;
+  float:right;
+  margin-right:10px;
+}
+
+#search-box-outline {
+font-size:20px;
+background-color: #E85A4F;
+padding: 5px;
+border-radius:15px;
+display:inline-block;
+position: absolute;
+top:0px;
+left:-10px;
+color: white;
+-ms-transform: scale(0.8, 0.8); /* IE 9 */
+  -webkit-transform: scale(0.8, 0.8); /* Safari */
+  transform: scale(0.8, 0.8);
+z-index: 999;
+margin:0px;
+}
+
+.translate {
+  position: fixed;
+  bottom:8px;
+  right:15px;
+  border: 2px solid #2C6996;
+  border-radius:12%;
+}
+.translate-menu {
+  position: fixed;
+  bottom:30px;
+  right:20px;
+}
+.english {
+  color: #2C6996;
+}
+
+#search-text {
+  color:black;
+}
+
+#section {
+  background-color: #429FE2;
+  font-size:20px;
+  border-style: ridge;
+  border-width:thick;
+  margin:0px;
+}
+
+:checked {
+  background-color:blue;
+}
+
+h4 {
+  text-align:left;
+}
+
+.sectionNavMenu {
+  background-color: orange;
+  margin:0px;
+  padding:0px;
+}
+
+.sectionNav {
+  background-color: blue;
+  border-width:thick;
+  border-style: ridge;  /* Alternative: double*/
+  border-color:red;
+  font-size:20px;
+  color:green;
+  padding-top:0px;
+}
+
+.row {
+  padding-top:0px;
+  margin-top:0px;
+}
+.sectionNav:hover {
+  background-color:lightblue;
+}
+
+/* Color of visited links - This code is being overridden*/
+a:visited {
+color:"red";
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+h2 {
+  color: white;
+}
+
+h2.section-title {
+  text-align:center;
+  background-color:#E85A4F;
+  border: 6px ridge #E98074;
+  padding:5px
+  color: #8E8D8A;
+  margin:0px;
+  position: -webkit-sticky;
+  position: sticky;
+  top:0px;
+  margin-top:20px;
+}
+
+.myNav {
+  margin:0px;
+}
+
+#map {
+  width:100%;
+}
+
+a.btn.btn-info {
+  width:100%;
+  padding:0%;
+  margin:0%;
+  margin-bottom: 5px;
+  border: 6px outset #429FE2;
+  background-color:#2C6996;
+}
+#house {
+  padding:1px;
+}
+
+a.btn.btn-info:hover {
+  background-color:#429FE2;
+}
+
+i.glyphicon.glyphicon-arrow-right {
+  font-size:20px;
+  color:#2D5F65;
+  color: #80C6BC;
+  float:right;
+  margin:5px;
+  margin-right: 20px;
+  -ms-transform: scale(1.5, 1); /* IE 9 */
+    -webkit-transform: scale(1.5, 1); /* Safari */
+    transform: scale(1.5, 1);
+}
+
+i.glyphicon.glyphicon-arrow-left {
+  font-size:20px;
+  color:#2D5F65;
+  color:#80C6BC;
+  float:left;
+  margin:5px;
+  margin-left: 20px;
+  -ms-transform: scale(1.5, 1); /* IE 9 */
+    -webkit-transform: scale(1.5, 1); /* Safari */
+    transform: scale(1.5, 1);
+}
+
+i.glyphicon.glyphicon-home {
+  font-size:18px;
+  color:#2D5F65;
+  color: #80C6BC;
+  float:center;
+  text-align: center;
+  display:block;
+  margin: 5px;
+}
+i.glyphicon.glyphicon-eye-open {
+  color:white;
+}
+#next-prev {
+  padding-bottom:5px;
+}
+.navText {
+  color:red;
+  font-size:15px;
+  -ms-transform: scale(1, 1); /* IE 9 */
+    -webkit-transform: scale(1, 1); /* Safari */
+    transform: scale(1, 1);
+}
+
+#next-prev {
+  font-size: 20px;
+  vertical-align: middle;
+  padding-top:30px;
+  color: white;
+  text-align: center;
+}
+
+
+#myLabel {
+  box-sizing: border-box;
+}
+
+div.container-fluid.chapterList {
+  text-align:center;
+  width:100%;
+  float:center;
+}
+
+a.btn.btn-success {
+  margin: 1px;
+  float: left;
+  text-align: left;
+  padding-left:80px;
+  width:90%;
+  display: block;
+  margin-right:10px;
+  margin-left: 25px;
+  font-size:18px;
+  background-color: #429FE2;
+  border-color: #429FE2;
+}
+
+a.btn.btn-success:hover {
+  background-color: #2C6996;
+}
+
+#collapseCh1, #collapseCh2, #collapseCh3, #collapseCh4, #collapseCh5 {
+  float:center;
+  text-align: left;
+  margin-left:150px;
+  size:18px;
+}
+.btn-link {
+  font-size:17px;
+}
+
+div#search-box-outline {
+  position: absolute;
+  top:0px;
+  left:-33px;
+  z-index:999;
+}
+
+a:visited {
+  color: #2C6996;
+  color: #E85A4F;
+}
